@@ -1,8 +1,8 @@
 # Bunny
-Some AMQP exercises over Bunny
+Some AMQP exercises over Bunny. Please install RabbitMQ and Bunny (Rubygem) first.
 
 
-## Installing on Homebrew
+## Installing RabbitMQ on Homebrew
 
 A brew for the RabbitMQ server is available from Homebrew.
 
@@ -68,3 +68,8 @@ As rabbitmq-server resides in `/usr/local/sbin`, running this command will enabl
 
 
     rabbitctl-stop
+
+
+## To install Bunny with RubyGems
+
+    gem install bunny
